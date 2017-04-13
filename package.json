@@ -1,0 +1,12 @@
+{
+  "name": "parse-server",
+  "description": "parse-server for Chisel, Mesto, ...",
+  "scripts": {
+    "mesto": "parse-server configs/mesto.json"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "parse-server": "^2.0.0",
+    "parse-server-mailgun": "^2.4.3"
+  }
+}
